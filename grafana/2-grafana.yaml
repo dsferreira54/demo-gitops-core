@@ -83,6 +83,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: grafana-instance-sa
+    namespace: grafana # FIX THAT
 roleRef:
   kind: ClusterRole
   name: cluster-monitoring-view
